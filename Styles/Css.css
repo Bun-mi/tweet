@@ -1,0 +1,47 @@
+.box .contain form{
+    height: fit-content;
+    width: fit-content;
+}
+
+.box .contain form input{
+    width: 295px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: lightslategrey;
+    background-color: transparent;
+    text-indent: 10px;
+}
+
+.box .contain form .djo a button{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    inline-size: none;
+    color: black;
+    margin-top: 20px;
+    border: none;
+}
+
+.box .contain form .dlk a button{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    inline-size: none;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.box .contain .jn{
+    margin-top: 50px;
+}
+
+.box .contain .jn p{
+    color: lightgray;
+}
+
+.box .contain .jn p a{
+    color: dodgerblue;
+    text-decoration: none;
+}

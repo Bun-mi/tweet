@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.enclose{
+    display: flex;
+}
+
+.enclose .L-wing{
+    width: 22%;
+    height:650px ;
+    border: 1px solid black;
+    position: sticky;
+}
+
+.enclose .main{
+    width: 45%;
+}
+
+.enclose .main .box .sub{
+    display: flex;
+}
+
+.enclose .main .box .sub .fy{
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.enclose .R-wing{
+    width: 33%;
+    height:650px ;
+    border: 1px solid black;
+    position: sticky;
+}

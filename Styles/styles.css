@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'LT Eyesight', sans-serif;
+}
+
+.box{
+    background-color: black;
+    height: 110vh;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.peg img{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+.box .contain .case{
+    margin-top: 90px;
+    width: 500px;
+    height: max-content;
+}
+
+.box .contain .case .head h1{
+    font-size: 100px;
+    color: lightgray;
+}
+
+.box .contain .case .sub h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.box .contain .case .hub{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.box .contain .case .hub button{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    color: black;
+    margin-top: 10px;
+    border: none;   
+}
+
+.box .contain .case .hub button .bi.bi-google{
+    color: color-mix(in hsl shorter hue, red 10%,  yellow 30%);
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.box .contain .case .hub button .bi.bi-apple{
+    color: black;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.box .contain .case .gcu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+}
+
+.box .contain .case .gcu .line{
+    width: 130px;
+    height: 1px;
+    border: 1px solid lightgray;
+}
+
+.box .contain .case .gv a button{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    inline-size: none;
+    color: black;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.box .contain .case .fd{
+    text-align: justify;
+    width: 300px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.box .contain .case .fd a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.box .contain .case .bhg{
+    font-size: 17px;
+    margin-top: 50px;
+}
+
+.box .contain .case .ml a button{
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    inline-size: none;
+    color: black;
+    margin-top: 10px;
+    border: none;
+}
+
+.box .foot footer{
+    margin-top: 70px;
+    background-color: black;
+    font-size: 17px;
+    text-align: center;
+    gap: 15px;
+}
+
+.box .foot footer a{
+   text-decoration: none;
+}
+
+
